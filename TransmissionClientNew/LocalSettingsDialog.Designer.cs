@@ -136,16 +136,16 @@ namespace TransmissionRemoteDotnet
             this.RemoveShareButton = new System.Windows.Forms.Button();
             this.listSambaShareMappings = new System.Windows.Forms.ListBox();
             this.listServers = new System.Windows.Forms.ListView();
-            this.columnName = new System.Windows.Forms.ColumnHeader();
-            this.columnHost = new System.Windows.Forms.ColumnHeader();
-            this.columnPort = new System.Windows.Forms.ColumnHeader();
+            this.columnName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHost = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnPort = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.ServersMenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.addServerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.removeServerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabRssSettings = new System.Windows.Forms.TabPage();
             this.listRssFeeds = new System.Windows.Forms.ListView();
-            this.columnFeedName = new System.Windows.Forms.ColumnHeader();
-            this.columnFeedUrl = new System.Windows.Forms.ColumnHeader();
+            this.columnFeedName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnFeedUrl = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.groupFeed = new System.Windows.Forms.GroupBox();
             this.RemoveFeedButton = new System.Windows.Forms.Button();
             this.AddFeedButton = new System.Windows.Forms.Button();
@@ -159,6 +159,7 @@ namespace TransmissionRemoteDotnet
             this.stateImageBrowse = new TransmissionRemoteDotnet.CustomControls.SkinImageBrowseTextBox();
             this.infopanelImageBrowse = new TransmissionRemoteDotnet.CustomControls.SkinImageBrowseTextBox();
             this.openImageFileDialog = new System.Windows.Forms.OpenFileDialog();
+            this.UseIsoDatesCheckBox = new System.Windows.Forms.CheckBox();
             this.tabSettings.SuspendLayout();
             this.tabGlobalSettings.SuspendLayout();
             this.groupAutoConnect.SuspendLayout();
@@ -287,6 +288,7 @@ namespace TransmissionRemoteDotnet
             // 
             // groupBehavior
             // 
+            this.groupBehavior.Controls.Add(this.UseIsoDatesCheckBox);
             this.groupBehavior.Controls.Add(this.TrayGroupBox);
             this.groupBehavior.Controls.Add(this.StartOnSystemCheckBox);
             this.groupBehavior.Controls.Add(this.UpdateToBetaCheckBox);
@@ -1023,7 +1025,6 @@ namespace TransmissionRemoteDotnet
             resources.ApplyResources(this.trayImageBrowse, "trayImageBrowse");
             this.trayImageBrowse.MaxHeight = 48;
             this.trayImageBrowse.MinHeight = 48;
-            this.trayImageBrowse.MinimumSize = new System.Drawing.Size(0, 68);
             this.trayImageBrowse.Name = "trayImageBrowse";
             this.trayImageBrowse.Title = "Tray icon Images";
             // 
@@ -1034,7 +1035,6 @@ namespace TransmissionRemoteDotnet
             resources.ApplyResources(this.toolbarImageBrowse, "toolbarImageBrowse");
             this.toolbarImageBrowse.MaxHeight = 32;
             this.toolbarImageBrowse.MinHeight = 16;
-            this.toolbarImageBrowse.MinimumSize = new System.Drawing.Size(0, 76);
             this.toolbarImageBrowse.Name = "toolbarImageBrowse";
             this.toolbarImageBrowse.Title = "Toolbar Images";
             // 
@@ -1045,7 +1045,6 @@ namespace TransmissionRemoteDotnet
             resources.ApplyResources(this.stateImageBrowse, "stateImageBrowse");
             this.stateImageBrowse.MaxHeight = 16;
             this.stateImageBrowse.MinHeight = 16;
-            this.stateImageBrowse.MinimumSize = new System.Drawing.Size(0, 68);
             this.stateImageBrowse.Name = "stateImageBrowse";
             this.stateImageBrowse.Title = "State Images";
             // 
@@ -1056,7 +1055,6 @@ namespace TransmissionRemoteDotnet
             resources.ApplyResources(this.infopanelImageBrowse, "infopanelImageBrowse");
             this.infopanelImageBrowse.MaxHeight = 16;
             this.infopanelImageBrowse.MinHeight = 16;
-            this.infopanelImageBrowse.MinimumSize = new System.Drawing.Size(0, 68);
             this.infopanelImageBrowse.Name = "infopanelImageBrowse";
             this.infopanelImageBrowse.Title = "Torrent Infopanel Images";
             // 
@@ -1065,6 +1063,12 @@ namespace TransmissionRemoteDotnet
             this.openImageFileDialog.DefaultExt = "*.png";
             this.openImageFileDialog.FileName = "openFileDialog1";
             resources.ApplyResources(this.openImageFileDialog, "openImageFileDialog");
+            // 
+            // UseIsoDatesCheckBox
+            // 
+            resources.ApplyResources(this.UseIsoDatesCheckBox, "UseIsoDatesCheckBox");
+            this.UseIsoDatesCheckBox.Name = "UseIsoDatesCheckBox";
+            this.UseIsoDatesCheckBox.UseVisualStyleBackColor = true;
             // 
             // LocalSettingsDialog
             // 
@@ -1234,5 +1238,6 @@ namespace TransmissionRemoteDotnet
         private System.Windows.Forms.Button AddFeedButton;
         private System.Windows.Forms.Button RemoveFeedButton;
         private System.Windows.Forms.CheckBox StartOnSystemCheckBox;
+        private System.Windows.Forms.CheckBox UseIsoDatesCheckBox;
     }
 }

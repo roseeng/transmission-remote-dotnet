@@ -62,7 +62,7 @@ namespace TransmissionRemoteDotnet
             ClearProxyPasswordCheckBox.CheckedChanged += new EventHandler(Field_ValueChanged);
             PlinkEnableCheckBox.CheckedChanged += new EventHandler(Field_ValueChanged);
             ProxyAuthEnableCheckBox.CheckedChanged += new EventHandler(Field_ValueChanged);
-
+            //UseIsoDatesCheckBox.CheckedChanged += new EventHandler(Field_ValueChanged);
             EnableProxyCombo.SelectedIndexChanged += new EventHandler(Field_ValueChanged);
 
             AddShareButton.Click += new EventHandler(Field_ValueChanged);
@@ -132,6 +132,7 @@ namespace TransmissionRemoteDotnet
             UpdateToBetaCheckBox.Checked = sett.UpdateToBeta;
             DeleteTorrentCheckBox.Checked = sett.DeleteTorrentWhenAdding;
             DontSavePasswordsCheckBox.Checked = sett.DontSavePasswords;
+            UseIsoDatesCheckBox.Checked = sett.UseIsoDates;
             PlinkPathTextBox.Text = sett.PlinkPath;
             stateImageBrowse.FileName = sett.StateImagePath;
             infopanelImageBrowse.FileName = sett.InfopanelImagePath;
@@ -162,6 +163,7 @@ namespace TransmissionRemoteDotnet
             sett.AutoCheckupdate = AutoCheckUpdateCheckBox.Checked;
             sett.UpdateToBeta = UpdateToBetaCheckBox.Checked;
             sett.DeleteTorrentWhenAdding = DeleteTorrentCheckBox.Checked;
+            sett.UseIsoDates = UseIsoDatesCheckBox.Checked;
             sett.DefaultDoubleClickAction = defaultActionComboBox.SelectedIndex;
             sett.PlinkPath = PlinkPathTextBox.Text;
             sett.StateImagePath = stateImageBrowse.FileName;
@@ -366,7 +368,7 @@ namespace TransmissionRemoteDotnet
         {
             if (serversettingschanged)
             {
-                System.Diagnostics.Trace.Assert(current != null, "AskToSaveServerIfNeed souldnt called if no server is selected"); // DONT translate this
+                System.Diagnostics.Trace.Assert(current != null, "AskToSaveServerIfNeed shouldn't be called if no server is selected"); // DONT translate this
                 if (MessageBox.Show(string.Format(OtherStrings.ConfirmSaveServer, current.Name), OtherStrings.Confirm, MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1) == DialogResult.Yes)
                     SaveServerButton_Click(this, new EventArgs());
             }

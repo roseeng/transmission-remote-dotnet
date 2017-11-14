@@ -1,0 +1,251 @@
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\bin\Debug\Transmission Remote.exe.config
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\bin\Debug\Transmission Remote.exe
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\bin\Debug\Transmission Remote.pdb
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\bin\Debug\cs-CZ\Transmission Remote.resources.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\bin\Debug\da-DK\Transmission Remote.resources.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\bin\Debug\de-DE\Transmission Remote.resources.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\bin\Debug\es-ES\Transmission Remote.resources.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\bin\Debug\fr-FR\Transmission Remote.resources.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\bin\Debug\hu-HU\Transmission Remote.resources.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\bin\Debug\ko-KR\Transmission Remote.resources.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\bin\Debug\nl-NL\Transmission Remote.resources.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\bin\Debug\pl-PL\Transmission Remote.resources.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\bin\Debug\pt-BR\Transmission Remote.resources.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\bin\Debug\ru-RU\Transmission Remote.resources.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\bin\Debug\sv-SE\Transmission Remote.resources.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\bin\Debug\tr-TR\Transmission Remote.resources.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\bin\Debug\zh-CN\Transmission Remote.resources.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\bin\Debug\zh-TW\Transmission Remote.resources.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\bin\Debug\Jayrock.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\bin\Debug\Jayrock.Json.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\bin\Debug\Raccoom.Xml.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\bin\Debug\Raccoom.Xml.pdb
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.csprojResolveAssemblyReference.cache
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.AboutDialog.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.ErrorLogWindow.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.FindDialog.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.LocalSettingsDialog.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.MoveDataPrompt.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.OtherStrings.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.Properties.Flags.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.Properties.Resources.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.RemoteSettingsDialog.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.RssForm.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.StatsDialog.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.TorrentLoadDialog.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.TorrentPropertiesDialog.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.UriPromptWindow.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.MainWindow.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.AboutDialog.cs-CZ.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.AboutDialog.da-DK.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.AboutDialog.de-DE.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.AboutDialog.es-ES.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.AboutDialog.fr-FR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.AboutDialog.hu-HU.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.AboutDialog.ko-KR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.AboutDialog.nl-NL.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.AboutDialog.pl-PL.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.AboutDialog.pt-BR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.AboutDialog.ru-RU.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.AboutDialog.sv-SE.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.AboutDialog.tr-TR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.AboutDialog.zh-CN.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.AboutDialog.zh-TW.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.ErrorLogWindow.cs-CZ.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.ErrorLogWindow.da-DK.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.ErrorLogWindow.de-DE.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.ErrorLogWindow.es-ES.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.ErrorLogWindow.fr-FR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.ErrorLogWindow.hu-HU.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.ErrorLogWindow.ko-KR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.ErrorLogWindow.nl-NL.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.ErrorLogWindow.pl-PL.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.ErrorLogWindow.pt-BR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.ErrorLogWindow.ru-RU.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.ErrorLogWindow.sv-SE.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.ErrorLogWindow.tr-TR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.ErrorLogWindow.zh-CN.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.ErrorLogWindow.zh-TW.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.FindDialog.cs-CZ.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.FindDialog.da-DK.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.FindDialog.de-DE.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.FindDialog.es-ES.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.FindDialog.fr-FR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.FindDialog.hu-HU.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.FindDialog.ko-KR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.FindDialog.nl-NL.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.FindDialog.pl-PL.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.FindDialog.pt-BR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.FindDialog.ru-RU.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.FindDialog.sv-SE.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.FindDialog.tr-TR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.FindDialog.zh-CN.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.FindDialog.zh-TW.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.LocalSettingsDialog.cs-CZ.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.LocalSettingsDialog.da-DK.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.LocalSettingsDialog.de-DE.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.LocalSettingsDialog.es-ES.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.LocalSettingsDialog.fr-FR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.LocalSettingsDialog.hu-HU.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.LocalSettingsDialog.ko-KR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.LocalSettingsDialog.nl-NL.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.LocalSettingsDialog.pl-PL.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.LocalSettingsDialog.pt-BR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.LocalSettingsDialog.ru-RU.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.LocalSettingsDialog.sv-SE.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.LocalSettingsDialog.tr-TR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.LocalSettingsDialog.zh-CN.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.LocalSettingsDialog.zh-TW.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.MainWindow.cs-CZ.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.MainWindow.da-DK.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.MainWindow.de-DE.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.MainWindow.es-ES.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.MainWindow.fr-FR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.MainWindow.hu-HU.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.MainWindow.ko-KR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.MainWindow.nl-NL.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.MainWindow.pl-PL.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.MainWindow.pt-BR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.MainWindow.ru-RU.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.MainWindow.sv-SE.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.MainWindow.tr-TR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.MainWindow.zh-CN.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.MainWindow.zh-TW.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.MoveDataPrompt.cs-CZ.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.MoveDataPrompt.da-DK.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.MoveDataPrompt.de-DE.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.MoveDataPrompt.es-ES.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.MoveDataPrompt.fr-FR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.MoveDataPrompt.hu-HU.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.MoveDataPrompt.ko-KR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.MoveDataPrompt.nl-NL.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.MoveDataPrompt.pl-PL.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.MoveDataPrompt.pt-BR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.MoveDataPrompt.ru-RU.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.MoveDataPrompt.sv-SE.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.MoveDataPrompt.tr-TR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.MoveDataPrompt.zh-CN.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.MoveDataPrompt.zh-TW.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.OtherStrings.cs-CZ.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.OtherStrings.da-DK.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.OtherStrings.de-DE.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.OtherStrings.es-ES.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.OtherStrings.fr-FR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.OtherStrings.hu-HU.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.OtherStrings.ko-KR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.OtherStrings.nl-NL.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.OtherStrings.pl-PL.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.OtherStrings.pt-BR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.OtherStrings.ru-RU.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.OtherStrings.sv-SE.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.OtherStrings.tr-TR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.OtherStrings.zh-CN.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.OtherStrings.zh-TW.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.RemoteSettingsDialog.cs-CZ.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.RemoteSettingsDialog.da-DK.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.RemoteSettingsDialog.de-DE.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.RemoteSettingsDialog.es-ES.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.RemoteSettingsDialog.fr-FR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.RemoteSettingsDialog.hu-HU.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.RemoteSettingsDialog.ko-KR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.RemoteSettingsDialog.nl-NL.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.RemoteSettingsDialog.pl-PL.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.RemoteSettingsDialog.pt-BR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.RemoteSettingsDialog.ru-RU.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.RemoteSettingsDialog.sv-SE.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.RemoteSettingsDialog.tr-TR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.RemoteSettingsDialog.zh-CN.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.RemoteSettingsDialog.zh-TW.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.RssForm.cs-CZ.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.RssForm.da-DK.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.RssForm.de-DE.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.RssForm.es-ES.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.RssForm.fr-FR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.RssForm.hu-HU.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.RssForm.ko-KR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.RssForm.nl-NL.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.RssForm.pl-PL.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.RssForm.pt-BR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.RssForm.ru-RU.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.RssForm.sv-SE.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.RssForm.tr-TR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.RssForm.zh-CN.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.RssForm.zh-TW.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.StatsDialog.cs-CZ.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.StatsDialog.da-DK.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.StatsDialog.de-DE.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.StatsDialog.es-ES.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.StatsDialog.fr-FR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.StatsDialog.hu-HU.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.StatsDialog.ko-KR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.StatsDialog.nl-NL.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.StatsDialog.pl-PL.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.StatsDialog.pt-BR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.StatsDialog.ru-RU.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.StatsDialog.sv-SE.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.StatsDialog.tr-TR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.StatsDialog.zh-CN.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.StatsDialog.zh-TW.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.TorrentLoadDialog.cs-CZ.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.TorrentLoadDialog.da-DK.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.TorrentLoadDialog.de-DE.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.TorrentLoadDialog.es-ES.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.TorrentLoadDialog.fr-FR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.TorrentLoadDialog.hu-HU.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.TorrentLoadDialog.ko-KR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.TorrentLoadDialog.nl-NL.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.TorrentLoadDialog.pl-PL.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.TorrentLoadDialog.pt-BR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.TorrentLoadDialog.ru-RU.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.TorrentLoadDialog.sv-SE.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.TorrentLoadDialog.tr-TR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.TorrentLoadDialog.zh-CN.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.TorrentLoadDialog.zh-TW.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.TorrentPropertiesDialog.cs-CZ.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.TorrentPropertiesDialog.da-DK.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.TorrentPropertiesDialog.de-DE.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.TorrentPropertiesDialog.es-ES.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.TorrentPropertiesDialog.fr-FR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.TorrentPropertiesDialog.hu-HU.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.TorrentPropertiesDialog.ko-KR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.TorrentPropertiesDialog.nl-NL.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.TorrentPropertiesDialog.pl-PL.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.TorrentPropertiesDialog.pt-BR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.TorrentPropertiesDialog.ru-RU.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.TorrentPropertiesDialog.sv-SE.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.TorrentPropertiesDialog.tr-TR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.TorrentPropertiesDialog.zh-CN.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.TorrentPropertiesDialog.zh-TW.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.UriPromptWindow.cs-CZ.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.UriPromptWindow.da-DK.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.UriPromptWindow.de-DE.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.UriPromptWindow.es-ES.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.UriPromptWindow.fr-FR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.UriPromptWindow.hu-HU.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.UriPromptWindow.ko-KR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.UriPromptWindow.nl-NL.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.UriPromptWindow.pl-PL.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.UriPromptWindow.pt-BR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.UriPromptWindow.ru-RU.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.UriPromptWindow.sv-SE.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.UriPromptWindow.tr-TR.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.UriPromptWindow.zh-CN.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.UriPromptWindow.zh-TW.resources
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\TransmissionRemoteDotnet.csproj.GenerateResource.Cache
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\cs-CZ\Transmission Remote.resources.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\da-DK\Transmission Remote.resources.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\de-DE\Transmission Remote.resources.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\es-ES\Transmission Remote.resources.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\fr-FR\Transmission Remote.resources.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\hu-HU\Transmission Remote.resources.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\ko-KR\Transmission Remote.resources.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\nl-NL\Transmission Remote.resources.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\pl-PL\Transmission Remote.resources.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\pt-BR\Transmission Remote.resources.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\ru-RU\Transmission Remote.resources.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\sv-SE\Transmission Remote.resources.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\tr-TR\Transmission Remote.resources.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\zh-CN\Transmission Remote.resources.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\zh-TW\Transmission Remote.resources.dll
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\Transmission Remote.exe
+E:\Utveckling\transmission-remote-dotnet-3.24.3-source\TransmissionClientNew\obj\Debug\Transmission Remote.pdb

@@ -15,6 +15,7 @@ namespace TransmissionRemoteDotnet.Settings
          * Modify this in MONO to right settings storage
          */
         public ILocalSettingsStore DefaultLocalStore;
+        
         public bool CompletedBaloon = true;
         public bool MinOnClose = false;
         public bool MinToTray = false;
@@ -35,6 +36,7 @@ namespace TransmissionRemoteDotnet.Settings
         public bool UploadPrompt = false;
         public string AutoConnect = "";
         private string currentprofile = "";
+        public bool UseIsoDates = true;
 
         public string CurrentProfile
         {
@@ -117,8 +119,11 @@ namespace TransmissionRemoteDotnet.Settings
                 ja.Put(s.Key, s.Value);
             }
             Toolbox.JsonPut(jo, SettingsKey.REGKEY_MISC, ja);
+            Toolbox.JsonPut(jo, SettingsKey.REGKEY_USE_ISO_DATES, UseIsoDates);
+            
             return jo;
         }
+
         public void LoadFromJson(JsonObject o)
         {
             Toolbox.JsonGet(ref CompletedBaloon, o[SettingsKey.REGKEY_COMPLETEDBALLOON]);
@@ -139,6 +144,8 @@ namespace TransmissionRemoteDotnet.Settings
             Toolbox.JsonGet(ref PlinkPath, o[SettingsKey.REGKEY_PLINKPATH]);
             Toolbox.JsonGet(ref UploadPrompt, o[SettingsKey.REGKEY_UPLOADPROMPT]);
             Toolbox.JsonGet(ref AutoConnect, o[SettingsKey.REGKEY_AUTOCONNECT]);
+            Toolbox.JsonGet(ref UseIsoDates, o[SettingsKey.REGKEY_USE_ISO_DATES]);
+            
             JsonObject ja = (JsonObject)o[SettingsKey.REGKEY_PROFILES];
             Servers.Clear();
             if (ja != null)
@@ -173,6 +180,7 @@ namespace TransmissionRemoteDotnet.Settings
                 }
             }
         }
+
         public LocalSettings()
         {
 #if PORTABLE
@@ -181,12 +189,14 @@ namespace TransmissionRemoteDotnet.Settings
             DefaultLocalStore = new RegistryLocalSettingsStore();
 #endif
         }
+
         public LocalSettings(JsonObject o) : this()
         {
             LoadFromJson(o);
         }
+
         /*
-         * TODO: this sould remove!!!
+         * TODO: this should be removed!!!
          */
         public object GetObject(string key)
         {
@@ -217,6 +227,7 @@ namespace TransmissionRemoteDotnet.Settings
 #endif
                 new FileLocalSettingsStore() 
             };
+
             foreach (ILocalSettingsStore ls in SettingsSource)
             {
                 try
@@ -228,6 +239,7 @@ namespace TransmissionRemoteDotnet.Settings
                 }
                 catch { };
             }
+
             if (newsettings == null)
             { // not load from any source :(, try old mode
                 try
@@ -243,6 +255,8 @@ namespace TransmissionRemoteDotnet.Settings
                     tempsettings.StartedBalloon = oldsettings.StartedBalloon;
                     tempsettings.UploadPrompt = oldsettings.UploadPrompt;
                     tempsettings.AutoCheckupdate = oldsettings.AutoCheckupdate;
+                    tempsettings.UseIsoDates = true; // Never was in the old format
+
                     string origcurrentprofile = oldsettings.CurrentProfile;
                     foreach (string p in oldsettings.Profiles)
                     {
@@ -300,6 +314,7 @@ namespace TransmissionRemoteDotnet.Settings
             return newsettings;
         }
     }
+
     public class Server
     {
         public string Host = "";
@@ -315,6 +330,7 @@ namespace TransmissionRemoteDotnet.Settings
             Toolbox.JsonGet(ref Username, o[SettingsKey.REGKEY_USER]);
             Toolbox.JsonGet(ref password, o[SettingsKey.REGKEY_PASS]);
         }
+
         public virtual JsonObject SaveToJson()
         {
             JsonObject jo = new JsonObject();
@@ -325,13 +341,16 @@ namespace TransmissionRemoteDotnet.Settings
                 Toolbox.JsonPut(jo, SettingsKey.REGKEY_PASS, password);
             return jo;
         }
+
         public Server()
         {
         }
+
         public Server(JsonObject o)
         {
             LoadFromJson(o);
         }
+
         public virtual void SetDontSavePasswords(bool Value)
         {
             dontsavepasswords = Value;
@@ -357,6 +376,7 @@ namespace TransmissionRemoteDotnet.Settings
             set { password = value; }
         }
     }
+
     public class TransmissionServer : Server
     {
         public bool UseSSL = false;
@@ -497,6 +517,7 @@ namespace TransmissionRemoteDotnet.Settings
 
 
     }
+
     public class ProxyServer : Server
     {
         public ProxyMode ProxyMode = ProxyMode.Auto;
@@ -533,6 +554,7 @@ namespace TransmissionRemoteDotnet.Settings
             }
         }
     }
+
     internal class SettingsKey
     {
         public const string
@@ -583,8 +605,10 @@ namespace TransmissionRemoteDotnet.Settings
             REGKEY_UPLIMIT = "uplimit",
             REGKEY_SAMBASHAREMAPPINGS = "sambaShareMappings",
             REGKEY_UPLOADPROMPT = "uploadPrompt",
-            REGKEY_DESTINATION_PATH_HISTORY = "destPathHistory";
+            REGKEY_DESTINATION_PATH_HISTORY = "destPathHistory",
+            REGKEY_USE_ISO_DATES = "useIsoDates";
     }
+
     public class PasswordEmptyException : Exception
     {
     }

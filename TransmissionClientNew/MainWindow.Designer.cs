@@ -36,21 +36,22 @@ namespace TransmissionRemoteDotnet
             this.stateListBox = new TransmissionRemoteDotnet.GListBox();
             this.stateListBoxImageList = new System.Windows.Forms.ImageList(this.components);
             this.torrentListView = new TransmissionRemoteDotnet.ListViewNF();
-            this.torrentNameCol = new System.Windows.Forms.ColumnHeader();
-            this.torrentNoCol = new System.Windows.Forms.ColumnHeader();
-            this.torrentSizeCol = new System.Windows.Forms.ColumnHeader();
-            this.torrentDoneCol = new System.Windows.Forms.ColumnHeader();
-            this.torrentStatusCol = new System.Windows.Forms.ColumnHeader();
-            this.torrentSeedsCol = new System.Windows.Forms.ColumnHeader();
-            this.torrentLeechersCol = new System.Windows.Forms.ColumnHeader();
-            this.torrentDownSpeedCol = new System.Windows.Forms.ColumnHeader();
-            this.torrentUpSpeedCol = new System.Windows.Forms.ColumnHeader();
-            this.torrentEtaCol = new System.Windows.Forms.ColumnHeader();
-            this.torrentUploadedCol = new System.Windows.Forms.ColumnHeader();
-            this.torrentRatioCol = new System.Windows.Forms.ColumnHeader();
-            this.torrentAddedAt = new System.Windows.Forms.ColumnHeader();
-            this.torrentCompletedAtCol = new System.Windows.Forms.ColumnHeader();
-            this.torrentTrackerCol = new System.Windows.Forms.ColumnHeader();
+            this.torrentNameCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.torrentNoCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.torrentSizeCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.torrentDoneCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.torrentStatusCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.torrentSeedsCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.torrentLeechersCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.torrentDownSpeedCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.torrentUpSpeedCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.torrentEtaCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.torrentUploadedCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.torrentRatioCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.torrentAddedAt = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.torrentCompletedAtCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.torrentTrackerCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.torrentLastActivityCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.torrentTabControl = new System.Windows.Forms.TabControl();
             this.generalTabPage = new System.Windows.Forms.TabPage();
             this.generalTableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
@@ -60,6 +61,8 @@ namespace TransmissionRemoteDotnet
             this.progressBar = new System.Windows.Forms.ProgressBar();
             this.percentageLabel = new TransmissionRemoteDotnet.SelectableLabel();
             this.generalTorrentNameGroupBox = new System.Windows.Forms.GroupBox();
+            this.lastActivityLabel = new TransmissionRemoteDotnet.SelectableLabel();
+            this.label2 = new System.Windows.Forms.Label();
             this.totalSizeLabel = new TransmissionRemoteDotnet.SelectableLabel();
             this.label1 = new System.Windows.Forms.Label();
             this.locationLabelLabel = new System.Windows.Forms.Label();
@@ -105,35 +108,35 @@ namespace TransmissionRemoteDotnet
             this.trackersTabPage = new System.Windows.Forms.TabPage();
             this.trackersTorrentNameGroupBox = new System.Windows.Forms.GroupBox();
             this.trackersListView = new TransmissionRemoteDotnet.ListViewNF();
-            this.trackersTierCol = new System.Windows.Forms.ColumnHeader();
-            this.trackersAnnounceUrlCol = new System.Windows.Forms.ColumnHeader();
-            this.trackersStatusCol = new System.Windows.Forms.ColumnHeader();
-            this.trackersUpdateInCol = new System.Windows.Forms.ColumnHeader();
-            this.trackersSeedsCol = new System.Windows.Forms.ColumnHeader();
-            this.trackersLeechersCol = new System.Windows.Forms.ColumnHeader();
-            this.trackersDownloadedCol = new System.Windows.Forms.ColumnHeader();
+            this.trackersTierCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.trackersAnnounceUrlCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.trackersStatusCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.trackersUpdateInCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.trackersSeedsCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.trackersLeechersCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.trackersDownloadedCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.filesTabPage = new System.Windows.Forms.TabPage();
             this.filesTorrentNameGroupBox = new System.Windows.Forms.GroupBox();
             this.filesListView = new TransmissionRemoteDotnet.ListViewNF();
-            this.filesPathCol = new System.Windows.Forms.ColumnHeader();
-            this.filesTypeCol = new System.Windows.Forms.ColumnHeader();
-            this.filesSizeCol = new System.Windows.Forms.ColumnHeader();
-            this.filesDoneCol = new System.Windows.Forms.ColumnHeader();
-            this.filesPercentCol = new System.Windows.Forms.ColumnHeader();
-            this.filesSkipCol = new System.Windows.Forms.ColumnHeader();
-            this.filesPriorityCol = new System.Windows.Forms.ColumnHeader();
+            this.filesPathCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.filesTypeCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.filesSizeCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.filesDoneCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.filesPercentCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.filesSkipCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.filesPriorityCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.fileIconImageList = new System.Windows.Forms.ImageList(this.components);
             this.peersTabPage = new System.Windows.Forms.TabPage();
             this.peersTorrentNameGroupBox = new System.Windows.Forms.GroupBox();
             this.peersListView = new TransmissionRemoteDotnet.ListViewNF();
-            this.peersIpAddressCol = new System.Windows.Forms.ColumnHeader();
-            this.peersHostnameCol = new System.Windows.Forms.ColumnHeader();
-            this.peersCountryCol = new System.Windows.Forms.ColumnHeader();
-            this.peersFlagsCol = new System.Windows.Forms.ColumnHeader();
-            this.peersClientCol = new System.Windows.Forms.ColumnHeader();
-            this.peersProgressCol = new System.Windows.Forms.ColumnHeader();
-            this.peersDownSpeedCol = new System.Windows.Forms.ColumnHeader();
-            this.peersUpSpeedCol = new System.Windows.Forms.ColumnHeader();
+            this.peersIpAddressCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.peersHostnameCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.peersCountryCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.peersFlagsCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.peersClientCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.peersProgressCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.peersDownSpeedCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.peersUpSpeedCol = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.speedTabPage = new System.Windows.Forms.TabPage();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
@@ -342,7 +345,8 @@ namespace TransmissionRemoteDotnet
             this.torrentRatioCol,
             this.torrentAddedAt,
             this.torrentCompletedAtCol,
-            this.torrentTrackerCol});
+            this.torrentTrackerCol,
+            this.torrentLastActivityCol});
             resources.ApplyResources(this.torrentListView, "torrentListView");
             this.torrentListView.FullRowSelect = true;
             this.torrentListView.HideSelection = false;
@@ -352,13 +356,13 @@ namespace TransmissionRemoteDotnet
             this.torrentListView.SmallImageList = this.stateListBoxImageList;
             this.torrentListView.UseCompatibleStateImageBehavior = false;
             this.torrentListView.View = System.Windows.Forms.View.Details;
+            this.torrentListView.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.torrentListView_ColumnClick);
             this.torrentListView.DrawColumnHeader += new System.Windows.Forms.DrawListViewColumnHeaderEventHandler(this.torrentListView_DrawColumnHeader);
             this.torrentListView.DrawItem += new System.Windows.Forms.DrawListViewItemEventHandler(this.torrentListView_DrawItem);
+            this.torrentListView.DrawSubItem += new System.Windows.Forms.DrawListViewSubItemEventHandler(this.torrentListView_DrawSubItem);
             this.torrentListView.SelectedIndexChanged += new System.EventHandler(this.torrentListView_SelectedIndexChanged);
             this.torrentListView.DoubleClick += new System.EventHandler(this.torrentListView_DoubleClick);
-            this.torrentListView.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.torrentListView_ColumnClick);
             this.torrentListView.KeyDown += new System.Windows.Forms.KeyEventHandler(this.torrentListView_KeyDown);
-            this.torrentListView.DrawSubItem += new System.Windows.Forms.DrawListViewSubItemEventHandler(this.torrentListView_DrawSubItem);
             // 
             // torrentNameCol
             // 
@@ -419,6 +423,10 @@ namespace TransmissionRemoteDotnet
             // torrentTrackerCol
             // 
             resources.ApplyResources(this.torrentTrackerCol, "torrentTrackerCol");
+            // 
+            // torrentLastActivityCol
+            // 
+            resources.ApplyResources(this.torrentLastActivityCol, "torrentLastActivityCol");
             // 
             // torrentTabControl
             // 
@@ -483,6 +491,8 @@ namespace TransmissionRemoteDotnet
             // 
             resources.ApplyResources(this.generalTorrentNameGroupBox, "generalTorrentNameGroupBox");
             this.generalTableLayoutPanel.SetColumnSpan(this.generalTorrentNameGroupBox, 3);
+            this.generalTorrentNameGroupBox.Controls.Add(this.lastActivityLabel);
+            this.generalTorrentNameGroupBox.Controls.Add(this.label2);
             this.generalTorrentNameGroupBox.Controls.Add(this.totalSizeLabel);
             this.generalTorrentNameGroupBox.Controls.Add(this.label1);
             this.generalTorrentNameGroupBox.Controls.Add(this.locationLabelLabel);
@@ -527,6 +537,18 @@ namespace TransmissionRemoteDotnet
             this.generalTorrentNameGroupBox.Controls.Add(this.timeElapsedLabelLabel);
             this.generalTorrentNameGroupBox.Name = "generalTorrentNameGroupBox";
             this.generalTorrentNameGroupBox.TabStop = false;
+            // 
+            // lastActivityLabel
+            // 
+            this.lastActivityLabel.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.lastActivityLabel, "lastActivityLabel");
+            this.lastActivityLabel.Name = "lastActivityLabel";
+            this.lastActivityLabel.ReadOnly = true;
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
             // 
             // totalSizeLabel
             // 
@@ -877,13 +899,13 @@ namespace TransmissionRemoteDotnet
             this.filesListView.SmallImageList = this.fileIconImageList;
             this.filesListView.UseCompatibleStateImageBehavior = false;
             this.filesListView.View = System.Windows.Forms.View.Details;
+            this.filesListView.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.filesListView_ColumnClick);
             this.filesListView.DrawColumnHeader += new System.Windows.Forms.DrawListViewColumnHeaderEventHandler(this.torrentListView_DrawColumnHeader);
             this.filesListView.DrawItem += new System.Windows.Forms.DrawListViewItemEventHandler(this.torrentListView_DrawItem);
+            this.filesListView.DrawSubItem += new System.Windows.Forms.DrawListViewSubItemEventHandler(this.filesListView_DrawSubItem);
             this.filesListView.SelectedIndexChanged += new System.EventHandler(this.filesListView_SelectedIndexChanged);
             this.filesListView.DoubleClick += new System.EventHandler(this.filesListView_DoubleClick);
-            this.filesListView.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.filesListView_ColumnClick);
             this.filesListView.KeyDown += new System.Windows.Forms.KeyEventHandler(this.torrentDetailsTabListView_KeyDown);
-            this.filesListView.DrawSubItem += new System.Windows.Forms.DrawListViewSubItemEventHandler(this.filesListView_DrawSubItem);
             // 
             // filesPathCol
             // 
@@ -953,11 +975,11 @@ namespace TransmissionRemoteDotnet
             this.peersListView.ShowItemToolTips = true;
             this.peersListView.UseCompatibleStateImageBehavior = false;
             this.peersListView.View = System.Windows.Forms.View.Details;
+            this.peersListView.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.peersListView_ColumnClick);
             this.peersListView.DrawColumnHeader += new System.Windows.Forms.DrawListViewColumnHeaderEventHandler(this.torrentListView_DrawColumnHeader);
             this.peersListView.DrawItem += new System.Windows.Forms.DrawListViewItemEventHandler(this.torrentListView_DrawItem);
-            this.peersListView.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.peersListView_ColumnClick);
-            this.peersListView.KeyDown += new System.Windows.Forms.KeyEventHandler(this.torrentDetailsTabListView_KeyDown);
             this.peersListView.DrawSubItem += new System.Windows.Forms.DrawListViewSubItemEventHandler(this.peersListView_DrawSubItem);
+            this.peersListView.KeyDown += new System.Windows.Forms.KeyEventHandler(this.torrentDetailsTabListView_KeyDown);
             // 
             // peersIpAddressCol
             // 
@@ -1102,9 +1124,9 @@ namespace TransmissionRemoteDotnet
             // toolStripVersionLabel
             // 
             resources.ApplyResources(this.toolStripVersionLabel, "toolStripVersionLabel");
-            this.toolStripVersionLabel.BorderSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)((((System.Windows.Forms.ToolStripStatusLabelBorderSides.Left | System.Windows.Forms.ToolStripStatusLabelBorderSides.Top)
-                        | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right)
-                        | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
+            this.toolStripVersionLabel.BorderSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)((((System.Windows.Forms.ToolStripStatusLabelBorderSides.Left | System.Windows.Forms.ToolStripStatusLabelBorderSides.Top) 
+            | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) 
+            | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.toolStripVersionLabel.BorderStyle = System.Windows.Forms.Border3DStyle.SunkenOuter;
             this.toolStripVersionLabel.Name = "toolStripVersionLabel";
             // 
@@ -1732,12 +1754,12 @@ namespace TransmissionRemoteDotnet
             this.KeyPreview = true;
             this.MainMenuStrip = this.menuStrip;
             this.Name = "MainWindow";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainWindow_FormClosing);
             this.Load += new System.EventHandler(this.MainWindow_Load);
             this.Shown += new System.EventHandler(this.MainWindow_Shown);
             this.VisibleChanged += new System.EventHandler(this.MainWindow_VisibleChanged);
             this.DragDrop += new System.Windows.Forms.DragEventHandler(this.MainWindow_DragDrop);
             this.DragEnter += new System.Windows.Forms.DragEventHandler(this.MainWindow_DragEnter);
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainWindow_FormClosing);
             this.Resize += new System.EventHandler(this.MainWindow_Resize);
             this.toolStripContainer1.ContentPanel.ResumeLayout(false);
             this.toolStripContainer1.ContentPanel.PerformLayout();
@@ -1985,5 +2007,8 @@ namespace TransmissionRemoteDotnet
         private System.Windows.Forms.ImageList trayIconImageList;
         private SelectableLabel totalSizeLabel;
         private System.Windows.Forms.Label label1;
+        private SelectableLabel lastActivityLabel;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ColumnHeader torrentLastActivityCol;
     }
 }

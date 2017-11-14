@@ -1209,7 +1209,7 @@ namespace TransmissionRemoteDotnet
                     = leechersLabel.Text = ratioLabel.Text = createdAtLabel.Text
                     = createdByLabel.Text = errorLabel.Text = percentageLabel.Text
                     = hashLabel.Text = piecesInfoLabel.Text = locationLabel.Text
-                    = generalTorrentNameGroupBox.Text = totalSizeLabel.Text = "";
+                    = generalTorrentNameGroupBox.Text = totalSizeLabel.Text = lastActivityLabel.Text = "";
                 trackersTorrentNameGroupBox.Text
                    = peersTorrentNameGroupBox.Text = filesTorrentNameGroupBox.Text
                    = "N/A";
@@ -1794,7 +1794,8 @@ namespace TransmissionRemoteDotnet
                 generalTorrentNameGroupBox.Text = peersTorrentNameGroupBox.Text
                     = trackersTorrentNameGroupBox.Text = filesTorrentNameGroupBox.Text
                     = t.TorrentName;
-                startedAtLabel.Text = t.Added.ToString();
+                startedAtLabel.Text = t.Added.ToIsoStringOrLocal();
+                lastActivityLabel.Text = t.LastActivity.ToIsoStringOrLocal();
                 createdAtLabel.Text = t.Created;
                 createdByLabel.Text = t.Creator;
                 hashLabel.Text = string.Join(" ", Toolbox.Split(t.Hash.ToUpper(), 8));
@@ -2516,4 +2517,23 @@ namespace TransmissionRemoteDotnet
             }
         }
     }
+
+    public static class ExtensionMethods
+    {
+        public static string ToIsoStringOrLocal(this DateTime dt)
+        {
+            if (Program.Settings.UseIsoDates)
+                return dt.ToString("yyyy-MM-dd HH:mm:ss");
+            else
+                return dt.ToString();
+        }
+    }
+}
+
+//
+// Leave this here until we fully migrate to .Net 4
+//
+namespace System.Runtime.CompilerServices
+{
+    public class ExtensionAttribute : Attribute { }
 }

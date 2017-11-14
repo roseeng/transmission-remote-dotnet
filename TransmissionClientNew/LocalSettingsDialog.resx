@@ -372,6 +372,36 @@
   <data name="&gt;&gt;groupPlinkPath.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="UseIsoDatesCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="UseIsoDatesCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UseIsoDatesCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 88</value>
+  </data>
+  <data name="UseIsoDatesCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 17</value>
+  </data>
+  <data name="UseIsoDatesCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="UseIsoDatesCheckBox.Text" xml:space="preserve">
+    <value>Use ISO dates</value>
+  </data>
+  <data name="&gt;&gt;UseIsoDatesCheckBox.Name" xml:space="preserve">
+    <value>UseIsoDatesCheckBox</value>
+  </data>
+  <data name="&gt;&gt;UseIsoDatesCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UseIsoDatesCheckBox.Parent" xml:space="preserve">
+    <value>groupBehavior</value>
+  </data>
+  <data name="&gt;&gt;UseIsoDatesCheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="ColorTrayIconCheckBox.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -541,7 +571,7 @@
     <value>groupBehavior</value>
   </data>
   <data name="&gt;&gt;TrayGroupBox.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="StartOnSystemCheckBox.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -571,7 +601,7 @@
     <value>groupBehavior</value>
   </data>
   <data name="&gt;&gt;StartOnSystemCheckBox.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="UpdateToBetaCheckBox.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -601,7 +631,7 @@
     <value>groupBehavior</value>
   </data>
   <data name="&gt;&gt;UpdateToBetaCheckBox.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="DontSavePasswordsCheckBox.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -631,7 +661,7 @@
     <value>groupBehavior</value>
   </data>
   <data name="&gt;&gt;DontSavePasswordsCheckBox.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="defaultActionComboBox.Items" xml:space="preserve">
     <value>Torrent Properties</value>
@@ -661,7 +691,7 @@
     <value>groupBehavior</value>
   </data>
   <data name="&gt;&gt;defaultActionComboBox.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="defaultActionLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -688,7 +718,7 @@
     <value>groupBehavior</value>
   </data>
   <data name="&gt;&gt;defaultActionLabel.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="DeleteTorrentCheckBox.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -718,7 +748,7 @@
     <value>groupBehavior</value>
   </data>
   <data name="&gt;&gt;DeleteTorrentCheckBox.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="AutoCheckUpdateCheckBox.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -748,7 +778,7 @@
     <value>groupBehavior</value>
   </data>
   <data name="&gt;&gt;AutoCheckUpdateCheckBox.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="UploadPromptCheckBox.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -778,7 +808,7 @@
     <value>groupBehavior</value>
   </data>
   <data name="&gt;&gt;UploadPromptCheckBox.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="groupBehavior.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 6</value>
@@ -2742,6 +2772,9 @@
   <data name="trayImageBrowse.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 260</value>
   </data>
+  <data name="trayImageBrowse.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 68</value>
+  </data>
   <data name="trayImageBrowse.Size" type="System.Drawing.Size, System.Drawing">
     <value>433, 108</value>
   </data>
@@ -2762,6 +2795,9 @@
   </data>
   <data name="toolbarImageBrowse.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 6</value>
+  </data>
+  <data name="toolbarImageBrowse.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 76</value>
   </data>
   <data name="toolbarImageBrowse.Size" type="System.Drawing.Size, System.Drawing">
     <value>433, 100</value>
@@ -2784,6 +2820,9 @@
   <data name="stateImageBrowse.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 112</value>
   </data>
+  <data name="stateImageBrowse.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 68</value>
+  </data>
   <data name="stateImageBrowse.Size" type="System.Drawing.Size, System.Drawing">
     <value>433, 68</value>
   </data>
@@ -2804,6 +2843,9 @@
   </data>
   <data name="infopanelImageBrowse.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 186</value>
+  </data>
+  <data name="infopanelImageBrowse.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 68</value>
   </data>
   <data name="infopanelImageBrowse.Size" type="System.Drawing.Size, System.Drawing">
     <value>433, 68</value>

@@ -28,6 +28,8 @@ namespace TransmissionRemoteDotnet
 {
     public class Torrent : ListViewItem
     {
+        const int LastListSubItem = 15; // We have 16 SubItems (one for each field)
+
         private string SeedersColumnFormat = "{1}";
 
         private long updateSerial;
@@ -127,14 +129,21 @@ namespace TransmissionRemoteDotnet
             SetText(11, this.LocalRatio < 0 ? "∞" : this.LocalRatio.ToString());
             base.SubItems[11].Tag = this.LocalRatio;
             this.SubItems[11].ForeColor = GetRatioColor();
-            SetText(12, this.Added.ToString());
+            SetText(12, this.Added.ToIsoStringOrLocal());
             base.SubItems[12].Tag = this.Added;
             if (this.DoneDate != null)
             {
                 base.SubItems[13].Tag = this.DoneDate;
-                SetText(13, this.DoneDate.ToString());
+                if (this.DoneDate is DateTime)
+                    SetText(13, ((DateTime)this.DoneDate).ToIsoStringOrLocal());
+                else
+                    SetText(13, this.DoneDate.ToString());
+
             }
             SetText(14, this.FirstTrackerTrimmed);
+
+            SetText(15, this.LastActivity.ToIsoStringOrLocal());
+            base.SubItems[15].Tag = this.LastActivity;
 
             if (first)
             {
@@ -263,14 +272,16 @@ namespace TransmissionRemoteDotnet
             : base((string)info[ProtocolConstants.FIELD_NAME])
         {
             this.Id = Toolbox.ToInt(info[ProtocolConstants.FIELD_ID]);
-            for (int i = 0; i < 14; i++)
+            for (int i = 0; i < LastListSubItem; i++)
                 base.SubItems.Add("");
+
             this.UseItemStyleForSubItems = false;
             SeedersColumnFormat = "{0} ({1})";
             base.ToolTipText = base.Text;
-            this.Created = Toolbox.DateFromEpoch(Toolbox.ToDouble(info[ProtocolConstants.FIELD_DATECREATED])).ToLocalTime().ToString();
+            this.Created = Toolbox.DateFromEpoch(Toolbox.ToDouble(info[ProtocolConstants.FIELD_DATECREATED])).ToLocalTime().ToIsoStringOrLocal();
             this.Creator = (string)info[ProtocolConstants.FIELD_CREATOR];
             this.Added = Toolbox.DateFromEpoch(Toolbox.ToDouble(info[ProtocolConstants.FIELD_ADDEDDATE])).ToLocalTime();
+            this.LastActivity = Toolbox.DateFromEpoch(Toolbox.ToDouble(info[ProtocolConstants.FIELD_ACTIVITYDATE])).ToLocalTime();
             base.Name = this.Hash = (string)info[ProtocolConstants.FIELD_HASHSTRING];
             this.TotalSize = Toolbox.ToLong(info[ProtocolConstants.FIELD_TOTALSIZE]);
             this.Comment = (string)info[ProtocolConstants.FIELD_COMMENT];
@@ -644,6 +655,12 @@ namespace TransmissionRemoteDotnet
         }
 
         public DateTime Added
+        {
+            get;
+            set;
+        }
+
+        public DateTime LastActivity
         {
             get;
             set;

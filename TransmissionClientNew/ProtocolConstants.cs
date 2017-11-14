@@ -141,6 +141,7 @@ namespace TransmissionRemoteDotnet
             FIELD_LEECHERS = "leechers",
             FIELD_SEEDERS = "seeders",
             FIELD_ADDEDDATE = "addedDate",
+            FIELD_ACTIVITYDATE = "activityDate",
             FIELD_ID = "id",
             FIELD_FILES = "files",
             FIELD_PRIORITIES = "priorities",

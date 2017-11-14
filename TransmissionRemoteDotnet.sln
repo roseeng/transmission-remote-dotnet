@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransmissionRemoteDotnet", "TransmissionClientNew\TransmissionRemoteDotnet.csproj", "{4691616B-6112-4361-B5FA-F44176844B54}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raccoom.Xml", "Raccoom.Xml\Raccoom.Xml.csproj", "{5CAAE842-11D7-42F8-9C81-096252F57C76}"

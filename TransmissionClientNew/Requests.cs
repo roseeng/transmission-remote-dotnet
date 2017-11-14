@@ -222,6 +222,7 @@ namespace TransmissionRemoteDotnet
             JsonArray fields = new JsonArray(new string[]{
                 ProtocolConstants.FIELD_ID,
                 ProtocolConstants.FIELD_ADDEDDATE,
+                ProtocolConstants.FIELD_ACTIVITYDATE,
                 ProtocolConstants.FIELD_HAVEVALID,
                 ProtocolConstants.FIELD_HAVEUNCHECKED,
                 ProtocolConstants.FIELD_ETA,
