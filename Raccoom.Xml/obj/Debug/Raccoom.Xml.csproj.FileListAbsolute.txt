@@ -1,6 +1,0 @@
-E:\Utveckling\transmission-remote-dotnet-3.24.3-source\Raccoom.Xml\bin\Debug\Raccoom.Xml.dll.config
-E:\Utveckling\transmission-remote-dotnet-3.24.3-source\Raccoom.Xml\bin\Debug\Raccoom.Xml.dll
-E:\Utveckling\transmission-remote-dotnet-3.24.3-source\Raccoom.Xml\bin\Debug\Raccoom.Xml.pdb
-E:\Utveckling\transmission-remote-dotnet-3.24.3-source\Raccoom.Xml\obj\Debug\Raccoom.Xml.csprojResolveAssemblyReference.cache
-E:\Utveckling\transmission-remote-dotnet-3.24.3-source\Raccoom.Xml\obj\Debug\Raccoom.Xml.dll
-E:\Utveckling\transmission-remote-dotnet-3.24.3-source\Raccoom.Xml\obj\Debug\Raccoom.Xml.pdb
