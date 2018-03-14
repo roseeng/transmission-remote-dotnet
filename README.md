@@ -1,7 +1,10 @@
 # transmission-remote-dotnet
 A fork from https://code.google.com/archive/p/transmission-remote-dotnet/ that does not seem to be maintained anymore
 
-This is the initial ReadMe.txt:
+New features in this fork:
+ * More fields from the server visible in the UI (like Last Activity)
+ 
+This is the ReadMe.txt from the original project:
 
 # About
 
